@@ -1,0 +1,87 @@
+
+*{
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  list-style: none;
+}
+ @font-face {
+     font-family: Letra1;
+     src: url(Melon\ Honey.ttf);
+ }
+ @font-face {
+     font-family: Letra2;
+     src: url(GROBOLD.ttf);
+ }
+a, li{
+    font-family: Letra1;
+    font-size: 30px;
+    color: #ce93d8 ;
+    display: inline-block;
+    padding: 25px;  
+}
+.logo img{
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+.logo1 img{
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+header{
+    background-color: #aa00ff ;
+    display: flex;
+    justify-content: 
+    space-between;
+    align-items: center;
+    padding: .5rem 2rem;
+}
+div#body{
+    margin: auto;
+    margin-top: 100px;
+    width: 900px;
+    height: 750px;
+   background-color: #ede7f6 ;
+   text-align: center;
+}
+img{
+    float:right;
+    width: 400px;
+    height: 200px;
+}
+h1{
+    font-family: Letra2;
+    color: #7e57c2;
+    font-size: 75px;
+}
+p{
+    font-family: Letra1;
+    color: #7c4dff;
+    font-size:35px;
+}
+.nav-menu ul li a{
+    display: block;
+    align-items: center;
+}
+.nav-menu li{
+    margin-right: 1.5rem;
+}
+.nav-menu ul,li,a:hover{
+    color: #800080 ;
+}
+div#header1{
+    margin: 0px;
+    margin-top: 0px;
+    width: 100%;
+    height: 150px;
+    background-color: #e8f5e9;
+}
+div#body1{
+    margin: auto;
+    margin-top: 100px;
+    width: 950px;
+    height:1100px;
+    background-color: #DB7093;
+}
